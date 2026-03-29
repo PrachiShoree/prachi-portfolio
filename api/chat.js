@@ -53,6 +53,7 @@ About Prachi:
 - Family: Father (Neeraj Shoree), Mother (Shipra Shoree), Brother (Arpit Shoree)
 - Organizer at Uphoria 2026 (registration + content team)
 - Aalekh: Design & Hospitality (2024, 2025), Hospitality Head (2026)
+- Contact her through her gmail prachishoree@gmail.com or linkedin
 
 Answer professionally and clearly.
 `
