@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Experience</title>
+  <link rel="stylesheet" href="experience.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<div class="cursor-glow"></div>
+
+<div class="exp-wrapper">
+
+  <div class="exp-header">
+    <h1>Experience</h1>
+    <p>Crafting digital experiences with design & intelligence</p>
+  </div>
+
+  <div class="timeline">
+
+    <div class="timeline-line"></div>
+
+    <!-- CARD -->
+    <a href="#" class="exp-card">
+      <div class="dot"></div>
+      <img src="assets/bmps.png" class="logo">
+      <div class="card-content">
+        <h3>Graphic Designer Intern</h3>
+        <span>Bhagwan Mahavir Public School</span>
+        <p>Designed posters & branding creatives with strong UI aesthetics.</p>
+      </div>
+    </a>
+
+    <a href="https://www.artisticnails.in" class="exp-card">
+      <div class="dot"></div>
+      <img src="assets/nailsLogo.png" class="logo">
+      <div class="card-content">
+        <h3>Freelance Web Developer</h3>
+        <span>Artistic Nails</span>
+        <p>Built a responsive website improving customer engagement.</p>
+      </div>
+      <i data-lucide="arrow-up-right" class="arrow-right"></i>
+    </a>
+
+    <a href="https://jainjewellersbarnala.my.canva.site/jain-jewellers" class="exp-card">
+      <div class="dot"></div>
+      <img src="assets/Copy of Jain Jewellers Brochure.png" class="logo">
+      <div class="card-content">
+        <h3>Freelance Web Developer</h3>
+        <span>Jain Jewellers</span>
+        <p>Created a premium UI reflecting brand elegance.</p>
+      </div>
+      <i data-lucide="arrow-up-right" class="arrow-right"></i>
+    </a>
+
+    <a href="https://www.careerscoutsinternational.com/" class="exp-card">
+      <div class="dot"></div>
+      <img src="assets/csiLogo.png" class="logo">
+      <div class="card-content">
+        <h3>Freelance Developer</h3>
+        <span>Career Scouts International</span>
+        <p>Developed a platform improving digital presence.</p>
+      </div>
+      <i data-lucide="arrow-up-right" class="arrow-right"></i>
+    </a>
+
+  </div>
+
+</div>
+
+<script>
+lucide.createIcons();
+
+/* CURSOR GLOW */
+const glow = document.querySelector(".cursor-glow");
+document.addEventListener("mousemove", (e)=>{
+  glow.style.left = e.clientX + "px";
+  glow.style.top = e.clientY + "px";
+});
+</script>
+
+<div class="bottom-nav">
+
+  <a href="index.html" class="nav-item">
+    <i data-lucide="home"></i>
+    <span>Home</span>
+  </a>
+
+  <a href="projects.html" class="nav-item">
+    <i data-lucide="layout-dashboard"></i>
+    <span>Projects</span>
+  </a>
+
+  <a href="experience.html" class="nav-item active">
+    <i data-lucide="briefcase"></i>
+    <span>Experience</span>
+  </a>
+
+  <a href="contact.html" class="nav-item">
+    <i data-lucide="mail"></i>
+    <span>Contact</span>
+  </a>
+
+  <a href="chat.html" class="nav-item">
+  <i data-lucide="message-circle"></i>
+  <span>Chat</span>
+</a>
+
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
+
+</body>
+</html>

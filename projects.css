@@ -1,0 +1,156 @@
+body{
+  margin:0;
+  font-family:"Poppins", sans-serif;
+  background: linear-gradient(135deg,#0f111a,#1b1f2a);
+  color:white;
+}
+
+/* HEADER */
+.featured-header{
+  padding:50px 80px 20px;
+}
+
+.featured-header h1{
+  font-size:48px;
+  margin-bottom:10px;
+}
+
+.featured-header p{
+  color:#aaa;
+}
+
+/* GRID */
+.featured-grid{
+  padding:0 80px 50px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:25px;
+}
+
+/* CARD */
+.featured-card{
+  padding:30px;
+  border-radius:20px;
+  min-height:180px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:0.3s;
+}
+
+/* TEXT */
+.featured-card h3{
+  font-size:24px;
+  margin-bottom:10px;
+}
+
+.featured-card p{
+  font-size:14px;
+  line-height:1.5;
+}
+
+/* TECH STACK */
+.tech-stack{
+  margin-top:10px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.tech-stack span{
+  font-size:11px;
+  padding:4px 10px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.2);
+}
+
+/* BUTTON */
+.github-btn{
+  margin-top:12px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:13px;
+  color:white;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,0.3);
+  padding:6px 12px;
+  border-radius:20px;
+  width:max-content;
+  transition:0.3s;
+}
+
+.github-btn:hover{
+  background:white;
+  color:black;
+}
+
+/* HOVER */
+.featured-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* COLORS */
+.red{ background: linear-gradient(135deg,#d42c2c,#8a2d2d); }
+.teal{ background: linear-gradient(135deg,#0c6b6f,#1a3f47); }
+.dark{ background: linear-gradient(135deg,#2c3340,#1b1f27); }
+.blue{ background: linear-gradient(135deg,#224b9b,#2c2b6f); }
+.purple{ background: linear-gradient(135deg,#6a5cff,#3b2fa1); }
+.orange{ background: linear-gradient(135deg,#ff8a00,#c25e00); }
+.pink{ background: linear-gradient(135deg,#ff4da6,#a61e6a); }
+.gradient{ background: linear-gradient(135deg,#00c6ff,#0072ff); }
+
+/* FLOATING NAVBAR */
+.bottom-nav{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+
+  display:flex;
+  gap:30px;
+
+  padding:12px 25px;
+  border-radius:50px;
+
+  background:rgba(20,20,30,0.6);
+  backdrop-filter:blur(15px);
+
+  border:1px solid rgba(255,255,255,0.1);
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+  z-index:999;
+}
+
+/* NAV ITEMS */
+.nav-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:4px;
+
+  text-decoration:none;
+  color:#aaa;
+  font-size:12px;
+
+  transition:0.3s;
+}
+
+/* ICON */
+.nav-item i{
+  width:20px;
+  height:20px;
+}
+
+/* HOVER */
+.nav-item:hover{
+  color:white;
+  transform:translateY(-2px);
+}
+
+/* ACTIVE TAB */
+.nav-item.active{
+  color:#ff4da6;
+}

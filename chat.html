@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <meta charset="UTF-8">
+  <title>AI Assistant</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+<a href="index.html" class="icon-btn back-btn">
+  <i data-lucide="arrow-left"></i>
+  <span>Go Back</span>
+</a>
+  <div class="assistant-container">
+
+    <h1>Ask Me About Prachi 👩‍💻</h1>
+
+    <p class="subtitle">
+      From web development to AI-driven projects, I can walk you through Prachi’s skills, experience, and latest builds. Type your question below and explore her work interactively.
+    </p>
+
+    <!-- Suggestion Cards -->
+    <div class="card-grid">
+
+      <div class="card" onclick="quickMessage('Tell me about her latest project')">
+        <h3>Latest Project</h3>
+        <p>What's the most recent thing she's built?</p>
+        <span>→</span>
+      </div>
+
+      <div class="card" onclick="quickMessage('What are her key skills?')">
+        <h3>Key Skills</h3>
+        <p>What technologies and languages does she know?</p>
+        <span>→</span>
+      </div>
+
+      <div class="card" onclick="quickMessage('Tell me about her work experience')">
+        <h3>Work Experience</h3>
+        <p>Where has she worked before?</p>
+        <span>→</span>
+      </div>
+
+      <div class="card" onclick="quickMessage('How can I contact her?')">
+        <h3>Contact Info</h3>
+        <p>How can I get in touch?</p>
+        <span>→</span>
+      </div>
+
+    </div>
+
+    <!-- Chat Messages -->
+    <div id="chat-box" class="chat-box"></div>
+
+  </div>
+
+  <!-- Input -->
+  <div class="chat-input">
+    <input type="text" id="user-input" placeholder="Ask anything about Prachi">
+    <button class="send-btn" onclick="sendMessage()">
+  <i data-lucide="arrow-up"></i>
+</button>
+  </div>
+
+<script>
+  lucide.createIcons();
+</script>
+
+<script src="chat.js"></script>
+
+<div class="bottom-nav">
+
+  <a href="index.html" class="nav-item">
+    <i data-lucide="home"></i>
+    <span>Home</span>
+  </a>
+
+  <a href="projects.html" class="nav-item">
+    <i data-lucide="layout-dashboard"></i>
+    <span>Projects</span>
+  </a>
+
+  <a href="experience.html" class="nav-item">
+    <i data-lucide="briefcase"></i>
+    <span>Experience</span>
+  </a>
+
+  <a href="contact.html" class="nav-item">
+    <i data-lucide="mail"></i>
+    <span>Contact</span>
+  </a>
+
+  <a href="chat.html" class="nav-item active">
+  <i data-lucide="message-circle"></i>
+  <span>Chat</span>
+</a>
+
+</div>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
